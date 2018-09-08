@@ -149,12 +149,12 @@ if [ -f $MIRRORPATH$FILEPATH$FILE ]; then
     /<\/family>/! d
     /<\/family>/ s/.*/\
       <family name="sans-serif">\
-      <font weight="100" style="normal" index="0">Roboto-Thin.ttc<\/font>\
-      <font weight="300" style="normal" index="0">Roboto-Light.ttc<\/font>\
-      <font weight="400" style="normal" index="0">Roboto-Regular.ttc<\/font>\
-      <font weight="500" style="normal" index="0">Roboto-Medium.ttc<\/font>\
-      <font weight="700" style="normal" index="0">Roboto-Bold.ttc<\/font>\
-      <font weight="900" style="normal" index="0">Roboto-Black.ttc<\/font>\
+      <font weight="100" style="normal" index="0">Roboto-Thin.ttf<\/font>\
+      <font weight="300" style="normal" index="0">Roboto-Light.ttf<\/font>\
+      <font weight="400" style="normal" index="0">Roboto-Regular.ttf<\/font>\
+      <font weight="500" style="normal" index="0">Roboto-Medium.ttf<\/font>\
+      <font weight="700" style="normal" index="0">Roboto-Bold.ttf<\/font>\
+      <font weight="900" style="normal" index="0">Roboto-Black.ttf<\/font>\
       <font weight="100" style="italic">Roboto-ThinItalic.ttf<\/font>\
       <font weight="300" style="italic">Roboto-LightItalic.ttf<\/font>\
       <font weight="400" style="italic">Roboto-Italic.ttf<\/font>\
@@ -168,60 +168,60 @@ if [ -f $MIRRORPATH$FILEPATH$FILE ]; then
     /<\/family>/! d
     /<\/family>/ s/.*/\
       <family lang="zh-Hans">\
-      <font weight="100" style="normal" index="3">Roboto-Thin.ttc<\/font>\
-      <font weight="300" style="normal" index="3">Roboto-Light.ttc<\/font>\
-      <font weight="400" style="normal" index="3">Roboto-Regular.ttc<\/font>\
-      <font weight="500" style="normal" index="3">Roboto-Medium.ttc<\/font>\
-      <font weight="700" style="normal" index="3">Roboto-Bold.ttc<\/font>\
-      <font weight="900" style="normal" index="3">Roboto-Black.ttc<\/font>\
+      <font weight="100" style="normal" index="3">Roboto-Thin.ttf<\/font>\
+      <font weight="300" style="normal" index="3">Roboto-Light.ttf<\/font>\
+      <font weight="400" style="normal" index="3">Roboto-Regular.ttf<\/font>\
+      <font weight="500" style="normal" index="3">Roboto-Medium.ttf<\/font>\
+      <font weight="700" style="normal" index="3">Roboto-Bold.ttf<\/font>\
+      <font weight="900" style="normal" index="3">Roboto-Black.ttf<\/font>\
       <\/family>/
   }
   /<family lang=\"zh-Hant\">/,/<\/family>/ {
     /<\/family>/! d
     /<\/family>/ s/.*/\
       <family lang="zh-Hant">\
-      <font weight="100" style="normal" index="4">Roboto-Thin.ttc<\/font>\
-      <font weight="300" style="normal" index="4">Roboto-Light.ttc<\/font>\
-      <font weight="400" style="normal" index="4">Roboto-Regular.ttc<\/font>\
-      <font weight="500" style="normal" index="4">Roboto-Medium.ttc<\/font>\
-      <font weight="700" style="normal" index="4">Roboto-Bold.ttc<\/font>\
-      <font weight="900" style="normal" index="4">Roboto-Black.ttc<\/font>\
+      <font weight="100" style="normal" index="4">Roboto-Thin.ttf<\/font>\
+      <font weight="300" style="normal" index="4">Roboto-Light.ttf<\/font>\
+      <font weight="400" style="normal" index="4">Roboto-Regular.ttf<\/font>\
+      <font weight="500" style="normal" index="4">Roboto-Medium.ttf<\/font>\
+      <font weight="700" style="normal" index="4">Roboto-Bold.ttf<\/font>\
+      <font weight="900" style="normal" index="4">Roboto-Black.ttf<\/font>\
       <\/family>/
   }
   /<family lang=\"zh-Hant zh-Bopo\">/,/<\/family>/ {
     /<\/family>/! d
     /<\/family>/ s/.*/\
       <family lang="zh-Hant zh-Bopo">\
-      <font weight="100" style="normal" index="4">Roboto-Thin.ttc<\/font>\
-      <font weight="300" style="normal" index="4">Roboto-Light.ttc<\/font>\
-      <font weight="400" style="normal" index="4">Roboto-Regular.ttc<\/font>\
-      <font weight="500" style="normal" index="4">Roboto-Medium.ttc<\/font>\
-      <font weight="700" style="normal" index="4">Roboto-Bold.ttc<\/font>\
-      <font weight="900" style="normal" index="4">Roboto-Black.ttc<\/font>\
+      <font weight="100" style="normal" index="4">Roboto-Thin.ttf<\/font>\
+      <font weight="300" style="normal" index="4">Roboto-Light.ttf<\/font>\
+      <font weight="400" style="normal" index="4">Roboto-Regular.ttf<\/font>\
+      <font weight="500" style="normal" index="4">Roboto-Medium.ttf<\/font>\
+      <font weight="700" style="normal" index="4">Roboto-Bold.ttf<\/font>\
+      <font weight="900" style="normal" index="4">Roboto-Black.ttf<\/font>\
       <\/family>/
   }
   /<family lang=\"ja\">/,/<\/family>/ {
     /<\/family>/! d
     /<\/family>/ s/.*/\
       <family lang="ja">\
-      <font weight="100" style="normal" index="1">Roboto-Thin.ttc<\/font>\
-      <font weight="300" style="normal" index="1">Roboto-Light.ttc<\/font>\
-      <font weight="400" style="normal" index="1">Roboto-Regular.ttc<\/font>\
-      <font weight="500" style="normal" index="1">Roboto-Medium.ttc<\/font>\
-      <font weight="700" style="normal" index="1">Roboto-Bold.ttc<\/font>\
-      <font weight="900" style="normal" index="1">Roboto-Black.ttc<\/font>\
+      <font weight="100" style="normal" index="1">Roboto-Thin.ttf<\/font>\
+      <font weight="300" style="normal" index="1">Roboto-Light.ttf<\/font>\
+      <font weight="400" style="normal" index="1">Roboto-Regular.ttf<\/font>\
+      <font weight="500" style="normal" index="1">Roboto-Medium.ttf<\/font>\
+      <font weight="700" style="normal" index="1">Roboto-Bold.ttf<\/font>\
+      <font weight="900" style="normal" index="1">Roboto-Black.ttf<\/font>\
       <\/family>/
   }
   /<family lang=\"ko\">/,/<\/family>/ {
     /<\/family>/! d
     /<\/family>/ s/.*/\
       <family lang="ko">\
-      <font weight="100" style="normal" index="2">Roboto-Thin.ttc<\/font>\
-      <font weight="300" style="normal" index="2">Roboto-Light.ttc<\/font>\
-      <font weight="400" style="normal" index="2">Roboto-Regular.ttc<\/font>\
-      <font weight="500" style="normal" index="2">Roboto-Medium.ttc<\/font>\
-      <font weight="700" style="normal" index="2">Roboto-Bold.ttc<\/font>\
-      <font weight="900" style="normal" index="2">Roboto-Black.ttc<\/font>\
+      <font weight="100" style="normal" index="2">Roboto-Thin.ttf<\/font>\
+      <font weight="300" style="normal" index="2">Roboto-Light.ttf<\/font>\
+      <font weight="400" style="normal" index="2">Roboto-Regular.ttf<\/font>\
+      <font weight="500" style="normal" index="2">Roboto-Medium.ttf<\/font>\
+      <font weight="700" style="normal" index="2">Roboto-Bold.ttf<\/font>\
+      <font weight="900" style="normal" index="2">Roboto-Black.ttf<\/font>\
       <\/family>/
   }
   /^$/d

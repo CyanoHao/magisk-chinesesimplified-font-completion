@@ -4,18 +4,16 @@ Complete Chinese (Simplified) font, including multi-weight Sans Serif, Serif, an
 
 适用于 Android N 和 O 的简体中文完整字体包，包含 Sans Serif、Serif、Sans Serif Condensed 三个字族以及多个字重。
 
-## What does this module provide?
+## What does this module provide?<br>这个模块包含哪些东西？
 
 + Add CJK Ideograph, Kana, and Hangul to Roboto (6 weights, Roman/Italic)
 + Add CJK Ideograph, Kana, and Hangul to Roboto Condensed (4 weights, Roman/Italic)
-+ Add CJK Ideograph, Kana, and Hangul to Noto Sans (Regular/Bold, Roman/Italic)
++ Add CJK Ideograph, Kana, and Hangul to Noto Serif (Regular/Bold, Roman/Italic)
 + Provide Noto Sans CJK JP/KR/SC/TC (6 weights)
-
-## 这个模块包含哪些东西？
 
 + 为 Roboto 补全汉字、假名、谚文（6 字重，正斜体均有）
 + 为 Roboto Condensed 补全汉字、假名、谚文（4 字重，正斜体均有）
-+ 为 Noto Sans 补全汉字、假名、谚文（常规和粗体，正斜体均有）
++ 为 Noto Serif 补全汉字、假名、谚文（常规和粗体，正斜体均有）
 + 还有 Noto Sans CJK JP/KR/SC/TC (6 字重)
 
 ## Preview<br>预览
@@ -31,6 +29,17 @@ Complete Chinese (Simplified) font, including multi-weight Sans Serif, Serif, an
 
 ### Serif on Web<br>完美还原网页上的宋体字
 ![Serif font on Web](preview/web.png)
+
+## Changelog
+
+### 2.138-2
+
++ Fix kerning.
++ Rename `Roboto-*.ttc` to `Roboto-*.ttf` to shadow stock `Roboto-*.ttf` files. Apps with embedded font engine should work properly.
+
+### 2.138-1
+
++ Initial release.
 
 ## Credit
 
